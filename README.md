@@ -28,10 +28,25 @@ Look through the application code. If you have the old Lambda Times (Applied Jav
 
 ## Self-Study/Essay Questions
 
-- [ ] What are PropTypes used for? Please describe why it's important to type check our data in JavaScript.
-- [ ] Describe a life-cycle event in React?
-- [ ] Explain the details of a Higher Order Component?
-- [ ] What are three different ways to style components in React? Explain some of the benefits of each.
+- [x] What are PropTypes used for? Please describe why it's important to type check our data in JavaScript.
+
+     PropTypes are a built in typechecking ability with React. Typechecking helps us catch bugs in our app, and this becomes especially helpful down the line when our app grows larger. When invalid values are provided for props, warnings will now display in the console.
+
+- [x] Describe a life-cycle event in React?
+
+    A life-cycle in React can be viewed much like a typical life-cycle in three major phases (birth, growth, death). The methods that we are able to use on our components are called lifecycle events. Mounting is the birth of our component. Updating is the growth of our component. Unmounting is the death of our component.
+
+- [x] Explain the details of a Higher Order Component?
+
+    A Higher Order Component (HOC) is an advanced React JS pattern that lets us re-use component logic. The HOC is a function that takes in a component as an argument and returns a new component
+
+- [x] What are three different ways to style components in React? Explain some of the benefits of each.
+
+    1. CSS Stylesheets- Imported CSS files to give a separate css file for each component if you wish. Nice for more complex apps and file organization.
+
+    2. Inline Styling- Specified with an object whose key is the camel cased version of the style name, and the value is the style's value. Inline styles are nice to add just a few style properties. You can create variables that store style properties and then pass them to the element.
+
+    3. Styled-Components- A library for React that allows you to mix JavaScript and CSS by using a template literal syntax and variables. Nice for when you want to reuse your style properties in the same file and if you like having everything in one file.
 
 ## Project Setup
 
